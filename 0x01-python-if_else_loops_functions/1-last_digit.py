@@ -7,4 +7,4 @@ if lnumber > 5:
 if lnumber == 0:
     print("Last digit of {:d} is {:d} and is 0".format(number, lnumber))
 if lnumber < 6 and lnumber != 0:
-    print("Last digit of {:d} is {:d} and is less than 6 and not 0".format(number, lnumber))
+    print("Last digit of {:d} is {:d} and is less than 6 and not 0".format(number, lnumber * -1))

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-    tuple = (len(sentence), sentence[0])
-    if sentence == '\0':
+    if sentence:
+        tuple = (len(sentence), sentence[0])
+    else:
         tuple = (len(sentence), None)
     return tuple

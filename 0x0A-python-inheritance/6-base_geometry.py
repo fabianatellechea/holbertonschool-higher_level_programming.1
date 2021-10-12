@@ -3,7 +3,7 @@
 
 
 class BaseGeometry:
-"""class again"""
+    """class again"""
 
     def area(self):
         """raises an exception"""
